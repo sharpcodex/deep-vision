@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="whatsThis">
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="displayerWidget">
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>497</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSource">
+    <property name="title">
+     <string>Source</string>
+    </property>
+    <widget class="QMenu" name="menuCameras">
+     <property name="title">
+      <string>Cameras</string>
+     </property>
+     <addaction name="cameraTakeImageAction"/>
+     <addaction name="cameraRecordVideoAction"/>
+    </widget>
+    <widget class="QMenu" name="menuNetwork">
+     <property name="title">
+      <string>Network</string>
+     </property>
+     <addaction name="networkReadImageAction"/>
+     <addaction name="networkReadVideoAction"/>
+    </widget>
+    <widget class="QMenu" name="menuFiles">
+     <property name="title">
+      <string>File System</string>
+     </property>
+     <addaction name="filesReadImageAction"/>
+     <addaction name="filesReadVideoAction"/>
+    </widget>
+    <addaction name="menuCameras"/>
+    <addaction name="menuFiles"/>
+    <addaction name="menuNetwork"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="exitAction"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="aboutAction"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuSource"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="cameraRecordVideoAction">
+   <property name="text">
+    <string>Record Video</string>
+   </property>
+  </action>
+  <action name="actionNetwork_Stream">
+   <property name="text">
+    <string>Network Stream</string>
+   </property>
+  </action>
+  <action name="actionVideo_File">
+   <property name="text">
+    <string>Video File</string>
+   </property>
+  </action>
+  <action name="exitAction">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actiontest">
+   <property name="text">
+    <string>test</string>
+   </property>
+  </action>
+  <action name="networkReadImageAction">
+   <property name="text">
+    <string>Image Url</string>
+   </property>
+  </action>
+  <action name="networkReadVideoAction">
+   <property name="text">
+    <string>Video Stream</string>
+   </property>
+  </action>
+  <action name="filesReadImageAction">
+   <property name="text">
+    <string>Image File</string>
+   </property>
+  </action>
+  <action name="filesReadVideoAction">
+   <property name="text">
+    <string>Video File</string>
+   </property>
+  </action>
+  <action name="cameraTakeImageAction">
+   <property name="text">
+    <string>Take Image</string>
+   </property>
+  </action>
+  <action name="aboutAction">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionBringToFront">
+   <property name="text">
+    <string>Bring To Front</string>
+   </property>
+  </action>
+  <action name="testDataImageAction">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Test Image</string>
+   </property>
+  </action>
+  <action name="testDataVideoAction">
+   <property name="text">
+    <string>Test Video</string>
+   </property>
+  </action>
+  <action name="actionSource">
+   <property name="text">
+    <string>Source</string>
+   </property>
+  </action>
+  <action name="filesReadImagesFolderAction">
+   <property name="text">
+    <string>Images Folder</string>
+   </property>
+  </action>
+  <action name="filesReadVideosFolderAction">
+   <property name="text">
+    <string>Videos Folder</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
