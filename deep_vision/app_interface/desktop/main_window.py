@@ -30,7 +30,7 @@ class MainWindow(QMainWindow):
 
         # class init
         super(MainWindow, self).__init__(parent)
-        path = config.APP_PATH / 'app_interface' / 'desktop'
+        path = config.APP_PATH / 'app_interface' / 'resources'
         self.formatter = None
         self.recorder = None
         self.processor = None
