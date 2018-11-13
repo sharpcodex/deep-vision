@@ -29,7 +29,7 @@ class MainWindow(QMainWindow):
         self.installEventFilter(QWindowEventFilter(self))
 
         # Setup Window
-        self.setWindowIcon(QIcon(str(path / 'app_icon.png')))
+        self.setWindowIcon(QIcon(str(path / 'favicon.png')))
         self.setWindowTitle(config.APP_NAME)
         self.displayerWidget.setScaledContents(True)
 
