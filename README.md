@@ -1,5 +1,5 @@
 # deep vision
-**deep vision** is open-source software, created to help deep learning practitioners in applying computer vision techniques to videos and images, by doing most of the 'programming' part, and let the students focus on the deep learning part.
+**deep vision** is open-source software, created to help deep learning practitioners in applying computer vision techniques to videos and images, by doing most of the 'programming' part, and let them focus on the deep learning part.
 
 ## Key Features
 * Get images and videos from Camera, Files and Network.
